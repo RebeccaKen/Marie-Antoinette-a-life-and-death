@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@200;300&display=swap');
 
 
 * {
@@ -9,7 +9,21 @@
 
 
 body {
+    font-family: 'Source Sans Pro', sans-serif;; 
+    font-weight: 300;
+    color:  #AF9DC4;
+    background-color: #FEF5FA;
+}
+
+/* headings and logos */
+
+h1, h2 {
     font-family: Playfair Display, sans-serif;
-    font-weight: 400;
-    background-color: rgba(245, 109, 145, 0.8);
+    letter-spacing:3px;
+    color: #252522; 
+}
+
+#logo {
+    float: left;
+    font-size 300%;
 }
