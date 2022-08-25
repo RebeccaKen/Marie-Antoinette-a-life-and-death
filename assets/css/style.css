@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Playfair+Display&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
 body {
-    font-family: Oswald;
+    font-family: Playfair Display, sans-serif;
+    font-weight: 400;
     background-color: rgba(245, 109, 145, 0.8);
 }
