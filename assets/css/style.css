@@ -62,15 +62,22 @@ h1, h2 {
 /* hero-image */
 
 #hero-outer {
-        height: 600px;
+        height: 700px;
         width: 100%;
         overflow: hidden;
+
+        position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: white;
 }
 
 #hero-image {
-        height: 600px;
+        height: 700px;
         width: 100%;
-        background: url('../images/hero-image.jpg') no-repeat center center;
+        background: url('../images/Marie-portrait-1.jpg') no-repeat center center;
+        background-position: center;
 
 
 /* animates zoom effect on loading page*/
@@ -80,6 +87,7 @@ h1, h2 {
       animation-fill-mode: forwards;
 
 }
+
 
 
 /* creates the level of zoom for the hero image */
@@ -92,3 +100,27 @@ h1, h2 {
         transform: scale(1.1);
        }
 }
+
+#cover-text {
+    font-size: 130%;
+    font-family: Playfair Display, sans-serif;
+    letter-spacing: 3px;
+    font-display: center;
+    text-align: center;
+
+    width: 400px;
+    height: 120px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px; 
+    background-color: #f7c9d7;
+    opacity: .8;
+
+    bottom: 60px;
+    right: 200px;
+
+    position: absolute;
+
+}
+
