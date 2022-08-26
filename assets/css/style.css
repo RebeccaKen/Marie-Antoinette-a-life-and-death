@@ -11,7 +11,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;; 
     font-weight: 300;
-    color:  #AF9DC4;
+    color: #957DAD;
     background-color: #FEF5FA;
 }
 
@@ -26,4 +26,34 @@ h1, h2 {
 #logo {
     float: left;
     font-size 300%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 70px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #957DAD;
+}
+
+.active {
+    border-bottom: 1px solid #957DAD;
 }
