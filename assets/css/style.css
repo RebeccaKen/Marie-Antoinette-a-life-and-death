@@ -33,7 +33,7 @@ h2 {
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 3px;
     color: #957DAD;
 }
@@ -47,6 +47,7 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    margin-top: 20px;
 }
 
 #menu a {
