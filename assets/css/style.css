@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;; 
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: #8d61b9;
     background-color: #FEF5FA;
@@ -17,10 +17,11 @@ body {
 
 /* headings and logos */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Playfair Display, sans-serif;
-    letter-spacing:3px;
-    color: #33332e; 
+    letter-spacing: 3px;
+    color: #33332e;
 }
 
 #logo {
@@ -36,7 +37,8 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 70px;
 }
 
@@ -62,28 +64,29 @@ h1, h2 {
 /* hero-image */
 
 #hero-outer {
-        height: 700px;
-        width: 100%;
-        overflow: hidden;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
 
-        position: relative;
+    position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: white;
 }
 
 #hero-image {
-        height: 700px;
-        width: 100%;
-        background: url('../images/Marie-portrait-1.jpg') no-repeat center center;
+    height: 700px;
+    width: 100%;
+    background: url('../images/Marie-portrait-1.jpg') no-repeat center center;
 
 
-/* animates zoom effect on loading page*/
+    /* animates zoom effect on loading page*/
 
-      animation-name: hero-zoom; 
-      animation-duration: 5s;
-      animation-fill-mode: forwards;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
 }
 
@@ -92,12 +95,13 @@ h1, h2 {
 /* creates the level of zoom for the hero image */
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
-         }
-    to{
+    }
+
+    to {
         transform: scale(1.1);
-       }
+    }
 }
 
 #cover-text {
@@ -112,8 +116,8 @@ h1, h2 {
 
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 12px; 
-    background-color: #f7c9d7;
+    padding-left: 12px;
+    background-color: #FEC8D8;
     opacity: .8;
 
     bottom: 60px;
@@ -201,59 +205,73 @@ hr {
     border-radius: 50%;
 }
 
-/* Timeline - This timeline has been coded using the example '*/
+/* Timeline - Timeline structure code was built with the coding tutorial 'How to Create a Vertical Timeline - HTML & CSS Tutorial' by dcode. 
+Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
+*/
 
-
-.process-wrapper {
-    margin: auto;
-    width: 1080px;
-}
-
-#progress-bar-container {
-    position: relative;
-    width: 90%;
-    margin: auto;
-    height: 100px;
-    margin-top: 59px;
-}
-
-#progress-bar-container ul {
-    padding: 0;
-    margin: 0;
-    padding-top: 15px;
-    z-index: 9999;
-    position: absolute;
-    width: 100%;
-    margin-top: -40px;
-}
-
-#progress-bar-container li:before{
-    content: "";
-    display: block;
-    margin: auto;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: solid 2px #aaa;
-    transition: all ease 0.3s;
-}
-
-#progress-bar-container li.active: before,
-#progress-bar-container li:hover:before{
-    background: #aaa; 
-}
-
-#progress-bar-container li {
-    list-style: none;
-    float: left;
-    width: 20%;
+ h1 {
     text-align: center;
-    color:#3a3a3a;
-    font-size: 11px;
-    cursor: pointer;
-    font-weight: 700;
-    transition: all ease 0.2s;
-    vertical-align: bottom;
-    height: 59px;
+    font-size: 300%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+  
+  .timeline {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #8d61b9;
+  }
+  
+  .timeline__component {
+    margin: 0 20px 20px 20px;
+  }
+  
+  .timeline__component--bg {
+    padding: 1.5em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  
+  .timeline__component--bottom {
+    margin-bottom: 0;
+  }
+  
+  .timeline__middle {
     position: relative;
-}
+    background: #8d61b9
+  }
+  
+  .timeline__point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #8d61b9;
+    border-radius: 50%;
+  }
+  
+  .timeline__point--bottom {
+    top: initial;
+    bottom: 0;
+  }
+  
+  .timeline__date--right {
+    text-align: right;
+  }
+  
+  .timeline__title {
+    margin: 0;
+    font-size: 1.15em;
+    font-weight: bold;
+  }
+  
+  .timeline__paragraph {
+    line-height: 1.5;
+  }
+  
