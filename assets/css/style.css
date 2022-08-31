@@ -10,8 +10,9 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    color: #8d61b9;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7e3bc2;
     background-color: #FEF5FA;
 }
 
@@ -28,14 +29,17 @@ h2 {
     float: left;
     font-size 300%;
     margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* navigation links */
 
 #menu {
     font-size: 120%;
+    font-weight: 500;
     letter-spacing: 3px;
-    color: #957DAD;
+    color: #7e3bc2;
 }
 
 #menu,
@@ -56,11 +60,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #957DAD;
+    border-bottom: 1px solid #7e3bc2;
 }
 
 .active {
-    border-bottom: 1px solid #957DAD;
+    border-bottom: 1px solid #7e3bc2;
 }
 
 /* hero-image */
@@ -107,7 +111,7 @@ h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 120%;
     font-family: Playfair Display, sans-serif;
     letter-spacing: 3px;
     font-display: center;
@@ -119,7 +123,7 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 12px;
-    background-color: #FEC8D8;
+    background-color: #7e3bc2;
     opacity: .8;
 
     bottom: 60px;
@@ -129,12 +133,14 @@ h2 {
 
 }
 
-/* Club Ethos */
+/* club ethos */
 
 
-#club-ethos {
+#historical-misconceptions {
     height: 600px;
+    margin-top: 96px;
 }
+
 
 #left-about {
     padding-top: 30px;
@@ -199,6 +205,7 @@ hr {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 #circle-cover-bg {
@@ -207,14 +214,14 @@ hr {
     border-radius: 50%;
 }
 
-/* Timeline - Timeline structure code was built with the coding tutorial 'How to Create a Vertical Timeline - HTML & CSS Tutorial' by dcode. 
+/* timeline - timeline structure code was built with the coding tutorial 'How to Create a Vertical Timeline - HTML & CSS Tutorial' by dcode. 
 Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 */
 
  h1 {
     text-align: center;
     font-size: 300%;
-    margin-top: 20px;
+    margin-top: 96px;
     margin-bottom: 20px;
  }
   
@@ -225,7 +232,7 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #8d61b9;
+    color: #7e3bc2;
   }
   
   .timeline__component {
@@ -244,7 +251,7 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
   
   .timeline__middle {
     position: relative;
-    background: #8d61b9
+    background: #7e3bc2;
   }
   
   .timeline__point {
@@ -254,7 +261,7 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: #8d61b9;
+    background: #7e3bc2;
     border-radius: 50%;
   }
   
@@ -296,6 +303,20 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #8d61b9;
+    color: #7e3bc2;
   }
   
+  /* gallery */
+
+  #photos {
+    clear: both;
+    line-height: 0;
+    column-count: 5;
+    column-gap: 0;
+  }
+
+  #photos > img {
+    width: 100%;
+  }
+
+
