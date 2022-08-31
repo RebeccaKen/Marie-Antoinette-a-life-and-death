@@ -275,4 +275,26 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
   .timeline__paragraph {
     line-height: 1.5;
   }
+
+  /* footer */
+
+  footer {
+    height: 150px;
+
+  }
+
+  .social-networks {
+    text-align: center;
+  }
+
+  .social-networks > li {
+    display: inline;
+  }
+
+  .social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #8d61b9;
+  }
   
