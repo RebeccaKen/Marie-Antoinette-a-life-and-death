@@ -10,8 +10,8 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 20px;
     color: #7e3bc2;
     background-color: #FEF5FA;
 }
@@ -51,7 +51,7 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #menu a {
@@ -79,36 +79,18 @@ h2 {
 
 #cover-text,
 #cover-text h2 {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #hero-image {
     height: 700px;
     width: 100%;
     background: url('../images/Marie-portrait-1.jpg') no-repeat center center;
-
-
-    /* animates zoom effect on loading page*/
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-
+    background-size: cover;
 }
 
 
-
-/* creates the level of zoom for the hero image */
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
+/* cover-text */
 
 #cover-text {
     font-size: 120%;
@@ -123,7 +105,7 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 12px;
-    background-color: #7e3bc2;
+    background-color: #df82df;
     opacity: .8;
 
     bottom: 60px;
@@ -133,12 +115,13 @@ h2 {
 
 }
 
-/* club ethos */
+/* historical misconceptions */
 
 
 #historical-misconceptions {
     height: 600px;
-    margin-top: 96px;
+    width: auto;
+    margin-top: 110px;
 }
 
 
@@ -162,7 +145,7 @@ h2 {
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin: 5px 0;
+    margin: 5px 0 auto;
 }
 
 .left-about-heading {
@@ -191,8 +174,11 @@ hr {
 
 #welcome {
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
+    margin-bottom: 40px;
     font-size: 280%;
+    width: auto;
+
 
 }
 
@@ -283,10 +269,25 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
   .timeline__paragraph {
     line-height: 1.5;
   }
+ 
+  /* gallery */
 
-  /* footer */
+  #photos {
+    clear: both;
+    line-height: 5px;
+    column-count: 5;
+    column-gap: 5px;
+    column-rule-width: 5px;
+   }
 
-  footer {
+  #photos > img {
+    width: 100%;
+    padding-bottom: 5px;
+  }
+
+   /* footer */
+
+   footer {
     height: 150px;
 
   }
@@ -306,17 +307,4 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     color: #7e3bc2;
   }
   
-  /* gallery */
-
-  #photos {
-    clear: both;
-    line-height: 0;
-    column-count: 5;
-    column-gap: 0;
-  }
-
-  #photos > img {
-    width: 100%;
-  }
-
 
