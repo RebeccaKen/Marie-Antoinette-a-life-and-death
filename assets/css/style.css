@@ -286,6 +286,16 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     border-radius: auto;
     }
     
+    img {
+      margin: 5px;
+      transition: transform 0.3s;
+    }
+    
+    img:hover {
+      transform: scale(1.2);
+      border: 2px solid #df82df;
+      padding: 2px;
+    }
 
 
    /* footer */
