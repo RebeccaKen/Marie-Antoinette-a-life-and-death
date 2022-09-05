@@ -128,7 +128,7 @@ h2 {
     padding-top: 0px;
     padding-left: 160px;
     padding-right: 160px;
-    align-content: center;
+    align-items: center;
 }
 
 
@@ -219,6 +219,7 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
 
 /* timeline - timeline structure code was built with the coding tutorial 'How to Create a Vertical Timeline - HTML & CSS Tutorial' by dcode. 
 Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
@@ -316,6 +317,39 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
       transform: scale(1.2);
       border: 2px solid #df82df;
       padding: 2px;
+    }
+
+    /* media queries */
+
+    /* for larger to medium screen sizes from 1200px wide and down */
+    @media screen and (max-width: 1200px) {
+      #historical-misconceptions {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+      }
+
+      #welcome {
+        padding: 30px 0;
+        margin: 0;
+      }
+
+      #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+      }
+
+      #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+      }
+
+      hr {
+        display: none;
+      }
     }
 
 
