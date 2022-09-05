@@ -115,6 +115,22 @@ h2 {
 
 }
 
+/* introduction paragraph */
+
+#introduction-paragrapgh > h1 {
+  font-display: center;
+}
+
+#introduction-paragrapgh {
+    width: auto;
+    margin-top: 110px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right;
+}
+
+
 /* historical misconceptions */
 
 
@@ -285,6 +301,10 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     grid-row: auto;
     border-radius: auto;
     }
+
+    /* The code for the hover animation on the 'Gallery' page was built with the code example of '#1 Hover animation'
+    by Vijay Thirugnanam on his website vijayt.com. Link: https://vijayt.com/post/hover-animation-blurred-image-and-other-css-tricks/
+   */
     
     img {
       margin: 5px;
