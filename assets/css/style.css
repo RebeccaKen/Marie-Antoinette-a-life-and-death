@@ -125,9 +125,10 @@ h2 {
     width: auto;
     margin-top: 110px;
     padding-bottom: 40px;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right;
+    padding-top: 0px;
+    padding-left: 160px;
+    padding-right: 160px;
+    align-content: center;
 }
 
 
