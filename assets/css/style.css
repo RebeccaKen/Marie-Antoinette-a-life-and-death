@@ -356,17 +356,30 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
       hr {
         display: none;
       }
+
+      #timeline {
+        width: 65%;
+        margin: 0 auto;
+      }
     }
 
     /* for medium screen sizes of 950px wide and down */
 
   @media screen and (max-width: 950px) {
-      #menu {
+    
+    #title {
+      width: 30%;
+      margin: 0 auto;
+     }
+    
+    
+    #menu > ul {
       clear: left;
       float: left;
       margin-left: 30px;
       margin-bottom: 20px;
       line-height: 25px;
+      columns: 2;
    }
 
    #cover-text {
@@ -382,14 +395,21 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     padding-bottom: 20px;
     margin-bottom: 40px;
    }
-
+   
+   #welcome {
+    width: 65%;
+    text-align: center;
+   }
 
    #historical-misconceptions {
-    width: 90%;
+    width: 65%;
     height: 1200px;
     margin: 0 auto; 
     margin-bottom: 20px;
+    text-align: center;
    }
+
+   
 
    .left-about-heading, .right-about-heading {
     width: inherit;
@@ -405,17 +425,37 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     padding: 0 20px;
    }
 
-   #gallery {
-    column-count: 3;
-   }
+   
   }
     
    /* for small screen sizes 800px and down*/
 
   @media screen and (max-width: 800px) {
+    
+    #title {
+      width: auto; 
+      text-align: center;
+    }
+    
+    #welcome {
+      width: 40%;
+      text-align: center;
+     }
+    
+    #timeline {
+      width: 20%;
+      margin: 0 auto;
+      align-items: center;
+     }
+  
+     #gallery {
+      column-count: 3;
+     }
+    
     #gallery {
       column-count: 1;
      }
+
   }
     
 
