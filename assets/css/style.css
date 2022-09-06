@@ -128,7 +128,7 @@ h2 {
     padding-top: 0px;
     padding-left: 160px;
     padding-right: 160px;
-    align-items: center;
+    text-align: center;
 }
 
 
@@ -323,6 +323,12 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 
     /* for larger to medium screen sizes from 1200px wide and down */
     @media screen and (max-width: 1200px) {
+      
+      #introduction-paragrapgh {
+        width: 80%;
+        text-align: center;
+      }
+
       #historical-misconceptions {
         width: 65%;
         height: 1200px;
@@ -366,11 +372,23 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
    #cover-text {
     left: 0;
    }
+   
+   #introduction-paragrapgh {
+    width: 90%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+   }
+
 
    #historical-misconceptions {
     width: 90%;
     height: 1200px;
     margin: 0 auto; 
+    margin-bottom: 20px;
    }
 
    .left-about-heading, .right-about-heading {
