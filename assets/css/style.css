@@ -436,14 +436,21 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
       width: auto; 
       text-align: center;
     }
+
+    #menu {
+      float: left;
+      columns: 2;
+    }
     
     #welcome {
-      width: 40%;
+      text-align: center;
+     }
+
+     #timeline, h1 {
       text-align: center;
      }
     
     #timeline {
-      width: 20%;
       margin: 0 auto;
       align-items: center;
      }
