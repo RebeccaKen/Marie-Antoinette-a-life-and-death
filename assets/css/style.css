@@ -433,9 +433,10 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
   @media screen and (max-width: 800px) {
     
     #title {
-      width: auto; 
+      width: 40%; 
       text-align: center;
     }
+
 
     #menu {
       float: left;
@@ -443,8 +444,22 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     }
     
     #welcome {
+      font-size: 40px;
+      font-display: auto;
       text-align: center;
+      justify-content: center;
+      position: relative;
      }
+
+     #historical-misconceptions {
+      justify-content: center;
+     }
+
+     #center-about {
+      align-items: center;
+      justify-content: center;
+    }
+
 
      #timeline, h1 {
       text-align: center;
@@ -453,6 +468,7 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     #timeline {
       margin: 0 auto;
       align-items: center;
+      justify-content: center;
      }
   
      #gallery {
