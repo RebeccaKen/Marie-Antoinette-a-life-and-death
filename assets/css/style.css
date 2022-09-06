@@ -386,6 +386,18 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     text-align: center;
     padding: 0 20px;
    }
+
+   #gallery {
+    column-count: 3;
+   }
+  }
+    
+   /* for small screen sizes 800px and down*/
+
+  @media screen and (max-width: 800px) {
+    #gallery {
+      column-count: 1;
+     }
   }
     
 
