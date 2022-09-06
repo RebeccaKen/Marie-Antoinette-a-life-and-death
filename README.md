@@ -32,11 +32,24 @@ comment should make it clear that this code is not your original code and source
 
 Homepage 
 
-The information in the 'Historical Misconceptions' section of the home page was gathered from the article '10 Things You May Not Know About Marie Antoinette' by 
+The information in the 'Historical Lies' section of the home page was gathered from the article '10 Things You May Not Know About Marie Antoinette' by 
 Christopher Klein on 'history.com'. Link: https://www.history.com/news/10-things-you-may-not-know-about-marie-antoinette
 
 The information in the 'Timeline' section of the homepage was gathered from 'Marie Antoinette and the French Revolution' an article on 'pbs.org'. 
 Link: https://www.pbs.org/marieantoinette/timeline/index.html
+
+Biography
+
+The information for the 'Biography' section was gathered from the following sources:
+
+    'MARIE ANTOINETTE – TRAGIC TEEN QUEEN' by Jasmin K. Williams published on November 6, 2006 in the New York Post. Link here:
+     https://nypost.com/2006/11/06/marie-antoinette-tragic-teen-queen/ 
+
+    'What Happened to Marie Antoinette’s Children?' by Barbara Maranzani published on Oct 18, 2019 in Biograpghy.com. Link here:
+     https://www.biography.com/news/marie-antoinette-children-louis-charles-marie-therese
+    
+    'Marie Antoinette' page on Wikipedia. Link here:
+     https://en.wikipedia.org/wiki/Marie_Antoinette
 
 Gallery
 
