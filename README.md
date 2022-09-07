@@ -51,14 +51,14 @@ The information for the 'Biography' section was gathered from the following sour
     'Marie Antoinette' page on Wikipedia. Link here:
      https://en.wikipedia.org/wiki/Marie_Antoinette
 
-Gallery
-
-Images for Marie-Antoinette throughout the website were sourced from 'pexels.com'. Link here: https://www.pexels.com/search/Marie%20Antoinette/
+Video
 
 Permission to post the video 'Marie Antoinette: Her Life & Face Revealed' granted by the video content creator Becca Saladin Segovia
 at Royalty Now Studios. Link to video here: https://www.youtube.com/watch?v=OXhEBfK3Njc&t=956s
 
 <img src="assets/images/Permission-to-post-video.jpg" alt="Email confirming permisson from video creators to post video on the website">
 
+Gallery
 
+Images for Marie-Antoinette throughout the website were sourced from 'pexels.com'. Link here: https://www.pexels.com/search/Marie%20Antoinette/
 
