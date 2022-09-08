@@ -2,133 +2,134 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 
+
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #7e3bc2;
-    background-color: #FEF5FA;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #7e3bc2;
+  background-color: #FEF5FA;
 }
 
 /* headings and logos */
 
 h1,
 h2 {
-    font-family: Playfair Display, sans-serif;
-    letter-spacing: 3px;
-    color: #33332e;
+  font-family: Playfair Display, sans-serif;
+  letter-spacing: 3px;
+  color: #33332e;
 }
 
 #logo {
-    float: left;
-    font-size 300%;
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  float: left;
+  font-size 300%;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 120%;
-    font-weight: 500;
-    letter-spacing: 3px;
-    color: #7e3bc2;
+  font-size: 120%;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #7e3bc2;
 }
 
 #menu,
 #logo {
-    line-height: 70px;
+  line-height: 70px;
 }
 
 #menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-    margin-top: 30px;
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+  margin-top: 30px;
 }
 
 #menu a {
-    text-decoration: none;
+  text-decoration: none;
 
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #7e3bc2;
+  border-bottom: 1px solid #7e3bc2;
 }
 
 .active {
-    border-bottom: 1px solid #7e3bc2;
+  border-bottom: 1px solid #7e3bc2;
 }
 
 /* hero-image */
 
 #hero-outer {
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
 
-    position: relative;
+  position: relative;
 }
 
 #cover-text,
 #cover-text h2 {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 #hero-image {
-    height: 700px;
-    width: 100%;
-    background: url('../images/Marie-portrait-1.jpg') no-repeat center center;
-    background-size: cover;
+  height: 700px;
+  width: 100%;
+  background: url('../images/Marie-portrait-1.jpg') no-repeat center center;
+  background-size: cover;
 }
 
 
 /* cover-text */
 
 #cover-text {
-    font-size: 120%;
-    font-family: Playfair Display, sans-serif;
-    letter-spacing: 3px;
-    font-display: center;
-    text-align: center;
+  font-size: 120%;
+  font-family: Playfair Display, sans-serif;
+  letter-spacing: 3px;
+  font-display: center;
+  text-align: center;
 
-    width: 400px;
-    height: 120px;
+  width: 400px;
+  height: 120px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 12px;
-    background-color: #df82df;
-    opacity: .8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  background-color: #df82df;
+  opacity: .8;
 
-    bottom: 60px;
-    right: 200px;
+  bottom: 60px;
+  right: 200px;
 
-    position: absolute;
+  position: absolute;
 
 }
 
 /* introduction paragraph */
 
-#introduction-paragrapgh > h1 {
+#introduction-paragrapgh>h1 {
   font-display: center;
 }
 
 #introduction-paragrapgh {
-    width: auto;
-    margin-top: 110px;
-    padding-bottom: 40px;
-    padding-top: 0px;
-    padding-left: 160px;
-    padding-right: 160px;
-    text-align: center;
+  width: auto;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-left: 160px;
+  padding-right: 160px;
+  text-align: center;
 }
 
 
@@ -136,88 +137,88 @@ h2 {
 
 
 #historical-misconceptions {
-    height: 600px;
-    width: auto;
-    margin-top: 110px;
-    padding-bottom: 40px;
-    padding-top: 40px;
+  height: 600px;
+  width: auto;
+  margin-top: 60px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 
 #left-about {
-    padding-top: 50px;
-    width: 33%;
-    float: left;
+  padding-top: 50px;
+  width: 33%;
+  float: left;
 }
 
 #right-about {
-    padding-top: 50px;
-    width: 33%;
-    float: right;
+  padding-top: 50px;
+  width: 33%;
+  float: right;
 }
 
 #center-about {
-    padding-top: 20px;
-    width: 33%;
-    margin: 0 auto;
+  padding-top: 20px;
+  width: 33%;
+  margin: 0 auto;
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0 auto;
+  border-top: 1px solid #3a3a3a;
+  width: 100%;
+  margin: 5px 0 auto;
 }
 
 .left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+  width: 60%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
 }
 
 .right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+  width: 60%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
 }
 
 .right-about-heading h2 {
-    text-align: right;
+  text-align: right;
 }
 
 .right-about-heading p {
-    text-align: right;
+  text-align: right;
 }
 
 #welcome {
-    text-align: center;
-    margin: 30px 0;
-    margin-bottom: 40px;
-    font-size: 280%;
-    width: auto;
+  text-align: center;
+  margin: 30px 0;
+  margin-bottom: 40px;
+  font-size: 280%;
+  width: auto;
 
 
 }
 
 #circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 #circle-cover-bg {
-    background: url('../images/Marie-smoking.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
+  background: url('../images/Marie-smoking.jpg') no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
 }
 
 
@@ -225,318 +226,155 @@ hr {
 Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 */
 
- h1 {
-    text-align: center;
-    font-size: 300%;
-    margin-top: 96px;
-    margin-bottom: 20px;
- }
-  
-  .timeline {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 25px;
-    display: grid;
-    grid-template-columns: 1fr 3px 1fr;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #7e3bc2;
-  }
-  
-  .timeline__component {
-    margin: 0 20px 20px 20px;
-  }
-  
-  .timeline__component--bg {
-    padding: 1.5em;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-  }
-  
-  .timeline__component--bottom {
-    margin-bottom: 0;
-  }
-  
-  .timeline__middle {
-    position: relative;
-    background: #7e3bc2;
-  }
-  
-  .timeline__point {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 15px;
-    height: 15px;
-    background: #7e3bc2;
-    border-radius: 50%;
-  }
-  
-  .timeline__point--bottom {
-    top: initial;
-    bottom: 0;
-  }
-  
-  .timeline__date--right {
-    text-align: right;
-  }
-  
-  .timeline__title {
-    margin: 0;
-    font-size: 1.15em;
-    font-weight: bold;
-  }
-  
-  .timeline__paragraph {
-    line-height: 1.5;
-  }
+h1 {
+  text-align: center;
+  font-size: 300%;
+  margin-top: 96px;
+  margin-bottom: 20px;
+}
 
-  /* biograpghy */
+.timeline {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #7e3bc2;
+}
 
-  #bio-image {
-    width: 200px;
-    height: 0px;
-    padding-bottom: 20px;
-    padding-top: 0px;
-    margin-top: 0 auto;
-    align-content: center;
-  }
+.timeline__component {
+  margin: 0 20px 20px 20px;
+}
 
-  #bio > h2 {
-    padding-top: 5%;
-  }
+.timeline__component--bg {
+  padding: 1.5em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
 
-  #bio > h3 {
-    font-family: Playfair Display;
-    color: #3a3a3a;
-    padding-top: 5%;
-  }
+.timeline__component--bottom {
+  margin-bottom: 0;
+}
 
-  #bio {
-    width: auto;
-    height: auto;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    text-align: center;
-  }
+.timeline__middle {
+  position: relative;
+  background: #7e3bc2;
+}
 
-  #video > h2 {
-    padding-bottom: 10px;
-    padding-left: 50px;
-  }
+.timeline__point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: #7e3bc2;
+  border-radius: 50%;
+}
 
-  #video {
-    padding-left: 30%;
-    padding-bottom: 20px;
-  }
- 
-  /* gallery */
+.timeline__point--bottom {
+  top: initial;
+  bottom: 0;
+}
 
-    #gallery {
-    width: 100%;
-    height:fit-content;
-    margin: 100px;
-    padding-inline: 30px;
-    float: left;
-    grid-template-columns: auto;
-    grid-row: auto;
-    border-radius: auto;
-    }
+.timeline__date--right {
+  text-align: right;
+}
 
-    /* The code for the hover animation on the 'Gallery' page was built with the code example of '#1 Hover animation'
+.timeline__title {
+  margin: 0;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+.timeline__paragraph {
+  line-height: 1.5;
+}
+
+/* biograpghy */
+
+#bio-image {
+  width: 200px;
+  height: 0px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  margin-top: 0 auto;
+  align-content: center;
+  position: relative;
+}
+
+#bio>h2 {
+  padding-top: 5%;
+}
+
+#bio>h3 {
+  font-family: Playfair Display;
+  color: #3a3a3a;
+  padding-top: 5%;
+}
+
+#bio {
+  width: auto;
+  height: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+#video>h2 {
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+
+#video {
+  padding-left: 30%;
+  padding-bottom: 20px;
+}
+
+/* gallery */
+
+#gallery {
+  width: 100%;
+  height: fit-content;
+  margin: 100px;
+  padding-inline: 30px;
+  float: left;
+  grid-template-columns: auto;
+  grid-row: auto;
+  border-radius: auto;
+  border-bottom: 20px;
+}
+
+/* The code for the hover animation on the 'Gallery' page was built with the code example of '#1 Hover animation'
     by Vijay Thirugnanam on his website vijayt.com. Link: https://vijayt.com/post/hover-animation-blurred-image-and-other-css-tricks/
    */
-    
-    img {
-      margin: 5px;
-      transition: transform 0.3s;
-    }
-    
-    img:hover {
-      transform: scale(1.2);
-      border: 2px solid #df82df;
-      padding: 2px;
-    }
 
-    /* media queries */
+img {
+  margin: 5px;
+  transition: transform 0.3s;
+}
 
-    /* for larger to medium screen sizes from 1200px wide and down */
-    @media screen and (max-width: 1200px) {
-      
-      #introduction-paragrapgh {
-        width: 80%;
-        text-align: center;
-      }
-
-      #historical-misconceptions {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-      }
-
-      #welcome {
-        padding: 30px 0;
-        margin: 0;
-      }
-
-      #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-      }
-
-      #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-      }
-
-      hr {
-        display: none;
-      }
-
-      #timeline {
-        width: 65%;
-        margin: 0 auto;
-      }
-
-    }
-
-    /* for medium screen sizes of 950px wide and down */
-
-  @media screen and (max-width: 950px) {
-    
-    #title {
-      width: 30%;
-      margin: 0 auto;
-     }
-    
-    
-    #menu > ul {
-      clear: left;
-      float: left;
-      margin-left: 30px;
-      margin-bottom: 20px;
-      line-height: 25px;
-      columns: 2;
-   }
-
-   #cover-text {
-    left: 0;
-   }
-   
-   #introduction-paragrapgh {
-    width: 90%;
-    margin: 0 auto;
-    float: left;
-    text-align: center;
-    padding: 0 20px;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-   }
-   
-   #welcome {
-    width: 65%;
-    text-align: center;
-   }
-
-   #historical-misconceptions {
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto; 
-    margin-bottom: 20px;
-    text-align: center;
-   }
-
-   
-
-   .left-about-heading, .right-about-heading {
-    width: inherit;
-   }
-
-   .left-about-heading h2, .right-about-heading h2 {
-    width: 100%;
-    text-align: center;
-   } 
-
-   .left-about-heading p, .right-about-heading p {
-    text-align: center;
-    padding: 0 20px;
-   }
-
-   
-  }
-    
-   /* for small screen sizes 800px and down*/
-
-  @media screen and (max-width: 800px) {
-    
-    #title {
-      width: 40%; 
-      text-align: center;
-    }
+img:hover {
+  transform: scale(1.2);
+  border: 2px solid #df82df;
+  padding: 2px;
+}
 
 
-    #menu {
-      float: left;
-      columns: 2;
-    }
-    
-    #welcome {
-      font-size: 40px;
-      font-display: auto;
-      text-align: center;
-      justify-content: center;
-      position: relative;
-     }
+  /* footer */
 
-     #historical-misconceptions {
-      justify-content: center;
-     }
-
-     #center-about {
-      align-items: center;
-      justify-content: center;
-    }
-
-
-     #timeline, h1 {
-      text-align: center;
-     }
-    
-    #timeline {
-      margin: 0 auto;
-      align-items: center;
-      justify-content: center;
-     }
-  
-     #gallery {
-      column-count: 3;
-     }
-    
-    #gallery {
-      column-count: 1;
-     }
-
-  }
-    
-
-
-   /* footer */
-
-   footer {
+  footer {
     height: 150px;
-
   }
 
   .social-networks {
     text-align: center;
   }
 
-  .social-networks > li {
+  .social-networks>li {
     display: inline;
   }
 
@@ -546,5 +384,192 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
     padding: 5%;
     color: #7e3bc2;
   }
-  
+
+/* media queries */
+
+/* for larger to medium screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+  #introduction-paragrapgh {
+    width: 80%;
+    text-align: center;
+  }
+
+  #historical-misconceptions {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  #welcome {
+    padding: 30px 0;
+    margin: 0;
+  }
+
+  #left-about,
+  #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  #center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  hr {
+    display: none;
+  }
+
+  #timeline {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+}
+
+/* for medium screen sizes of 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+  #title {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+
+  #menu {
+    float: left;
+    padding-left: 20px;
+    display: inline;
+  }
+
+  #cover-text {
+    left: 0;
+  }
+
+  #introduction-paragrapgh {
+    width: 80% padding-right: 20%;
+
+    #welcome {
+      width: 65%;
+      text-align: center;
+    }
+
+    #historical-misconceptions {
+      width: 65%;
+      height: 1200px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+
+
+    .left-about-heading,
+    .right-about-heading {
+      width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+      width: 100%;
+      text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    /* biograpgy section */
+
+    #menu>li {
+      float: right;
+      list-style-type: none;
+      margin-right: 30px;
+      margin-top: 30px;
+    }
+
+    #bio-image {
+      padding-left: 40%;
+    }
+
+    #video {
+      padding-left: 20%;
+    }
+
+    #footer {
+      display: inline;
+    }
+
+  }
+
+  /* for small screen sizes 800px and down*/
+
+  @media screen and (max-width: 800px) {
+
+    #title {
+      width: 40%;
+      text-align: center;
+    }
+
+
+    #menu {
+      float: left;
+      padding-left: 160px;
+      display: inline;
+    }
+
+    #welcome {
+      font-size: 40px;
+      font-display: auto;
+      text-align: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    #historical-misconceptions {
+      justify-content: center;
+    }
+
+    #center-about {
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    #timeline,
+    h1 {
+      text-align: center;
+    }
+
+    #timeline {
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* responsive biograpghy */
+
+    #bio-image {
+      size-adjust: 100px;
+    }
+
+    #video {
+      padding-left: 2%;
+    }
+
+    /* responsive gallery */
+
+    #gallery {
+      column-count: 1;
+    }
+
+  }
+
 
