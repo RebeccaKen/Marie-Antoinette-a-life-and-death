@@ -91,7 +91,6 @@ h2 {
   background-size: cover;
 }
 
-
 /* cover-text */
 
 #cover-text {
@@ -116,6 +115,7 @@ h2 {
   position: absolute;
 
 }
+
 
 /* introduction paragraph */
 
@@ -393,9 +393,48 @@ footer {
 
 /* media queries */
 
-/* for mobile screen sizes of 950px wide and down */
+/* for mobile screen sizes of 370px wide and down */
+
+@media screen and (max-width: 370px) {
+
+
+  #logo {
+    display: inline;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+   #menu {
+    text-align: center;
+    display: inline;
+    text-size-adjust: 30px;
+  }
+
+  #hero-outer {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  
+    position: relative;
+  }
+
+  #hero-image {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #introduction-paragragh {
+    padding-left: 40px;
+  }
+
+}
 
 @media screen and (max-width: 950px) {
+
 
   #h1 {
     width: 30%;
@@ -410,8 +449,6 @@ footer {
     margin-right: 30px;
     text-align: center;
   }
-
-  #bio-image {}
 
   #cover-text {
     left: 0;
