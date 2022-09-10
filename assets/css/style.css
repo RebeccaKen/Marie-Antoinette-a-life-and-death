@@ -125,12 +125,9 @@ h2 {
 }
 
 #introduction-paragrapgh {
-  width: auto;
+  width: 50;
   margin-top: 30px;
   padding-bottom: 20px;
-  padding-top: 0px;
-  padding-left: 160px;
-  padding-right: 160px;
   text-align: center;
 }
 
@@ -295,7 +292,7 @@ h1 {
   line-height: 1.5;
 }
 
-/* biograpghy */
+/* biograpghy page */
 
 #bio-image {
   width: 200px;
@@ -401,20 +398,21 @@ footer {
   #logo {
     display: inline;
     margin: 0 auto;
+    padding-left: 12px;
     margin-bottom: 5px;
   }
 
-   #menu {
-    text-align: center;
-    display: inline;
-    text-size-adjust: 30px;
+  #menu li {
+    float: left;
+    size-adjust: 20px;
+    padding-bottom: 10px;
   }
 
   #hero-outer {
     height: auto;
     width: 100%;
     overflow: hidden;
-  
+
     position: relative;
   }
 
@@ -426,14 +424,57 @@ footer {
     align-items: center;
   }
 
-
-  #introduction-paragragh {
-    padding-left: 40px;
+  #cover-text {
+    font-size: medium;
+    width: 80%;
+    height: 85px;
+    margin-top: 340px;
+    margin-left: 30px;
+    margin-right: 60px;
   }
+
+  #introduction-paragrapgh>h1 {
+    font-size: 200%;
+    padding-right: 20%;
+    text-align: center;
+  }
+
+  #introduction-paragrapgh {
+    width: 80vw;
+    text-align: center;
+
+  }
+
+  #welcome {
+    font-size: 190%;
+    padding-right: 30%;
+  }
+
+  #circle-container {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #circle-cover-bg {
+    background: url('../images/Marie-smoking.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+
+
 
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 768px) {
 
 
   #h1 {
@@ -451,7 +492,8 @@ footer {
   }
 
   #cover-text {
-    left: 0;
+    bottom: 60px;
+    right: 10px;
   }
 
   #introduction-paragrapgh>h1 {
