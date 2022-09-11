@@ -425,15 +425,16 @@ img:hover {
   padding: 15px 32px 15px 32px;
   text-align: center;
   font-size: 100%;
-  background-color: #3a3a3a;
+  background-color: #7e3bc2;
   color: #fafafa;
   display:block;
 }
 
 .join-button:hover {
-  background-color: #fafafa;
-  color: #7e3bc2;
+  background-color: purple;
+  color: white;
 }
+
 
 /* footer */
 
