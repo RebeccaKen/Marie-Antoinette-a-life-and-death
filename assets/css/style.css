@@ -28,10 +28,10 @@ h2 {
 
 #logo {
   float: left;
-  font-size 300%;
   margin-left: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 280%;
 }
 
 /* navigation links */
@@ -94,10 +94,9 @@ h2 {
 /* cover-text */
 
 #cover-text {
-  font-size: 120%;
+  font-size: 100%;
   font-family: Playfair Display, sans-serif;
   letter-spacing: 3px;
-  font-display: center;
   text-align: center;
 
   width: 400px;
@@ -119,9 +118,9 @@ h2 {
 
 /* introduction paragraph */
 
-#introduction-paragragh > h1 {
+#introduction-paragragh > h2 {
   font-size: 280%;
-  padding-top: 0;
+  padding-top: 7%;
 
 }
 
@@ -133,10 +132,10 @@ h2 {
   overflow: hidden;
 }
 
-/* historical misconceptions */
+/* historical lies */
 
 
-#historical-misconceptions {
+#historical-lies {
   height: 600px;
   width: auto;
   margin-top: 60px;
@@ -227,10 +226,10 @@ hr {
 Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 */
 
-h1 {
+#timeline > h2 {
   text-align: center;
   font-size: 280%;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 .timeline {
@@ -243,7 +242,6 @@ h1 {
   grid-template-columns: 1fr 3px 1fr;
   font-family: 'Source Sans Pro', sans-serif;
   color: #7e3bc2;
-  align-content: auto;
   overflow: hidden;
 }
 
@@ -296,16 +294,11 @@ h1 {
   line-height: 1.5;
 }
 
-
-
 /* biograpghy page */
 
 #bio-image {
   width: 200px;
-  height: 0px;
   padding-bottom: 20px;
-  padding-top: 0px;
-  margin-top: 0 auto;
   align-content: center;
   position: relative;
 }
@@ -330,6 +323,8 @@ h1 {
   text-align: center;
 }
 
+/* video */
+
 #video>h2 {
   padding-bottom: 10px;
   padding-right: 50px;
@@ -340,6 +335,7 @@ h1 {
   margin-right: 20%;
   padding-bottom: 20px;
   margin-left: 10%;
+  border: 0px;
 
 }
 
@@ -353,7 +349,6 @@ h1 {
   float: left;
   grid-template-columns: auto;
   grid-row: auto;
-  border-radius: auto;
   border-bottom: 20px;
 }
 
@@ -372,12 +367,11 @@ img:hover {
   padding: 2px;
 }
 
-/* newsletter */
+/* newsletter form */
 
 .form-section {
   clear: left;
   background: url('../images/Marie-standing-with-two-dogs.jpg') no-repeat center center;
-  background-image: cover;
   background-size: cover;
   background-position: center;
   height: 1200px;
@@ -473,7 +467,6 @@ footer {
 
   #menu li {
     float: left;
-    size-adjust: 20px;
     padding-bottom: 10px;
   }
 
@@ -527,12 +520,10 @@ footer {
   #circle-cover-bg {
     background: url('../images/Marie-smoking.jpg') no-repeat center center;
     height: 35vh;
-    weight: 60wh;
     border-radius: 50%;
   }
 
   #timeline-container {
-    display: flexbox;
     flex-direction: column;
   }
 
@@ -543,7 +534,6 @@ footer {
   grid-template-columns: 1fr 3px 1fr;
   font-family: 'Source Sans Pro', sans-serif;
   color: #7e3bc2;
-  align-content: auto;
   overflow: hidden;
   }
 }
