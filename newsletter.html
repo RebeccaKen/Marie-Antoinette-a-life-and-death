@@ -34,21 +34,32 @@
             </ul>
         </nav>
     </header>
-    <!-- gallery section-->
-    <section id="images">
-        <div id="gallery">
-        <img src="assets/images/Marie-by-tree.jpg" alt="Marie-Antoinette touching a tree">
-        <img src="assets/images/Marie-eating.jpg" alt="Marie-Antoinette eating a strawberry">
-        <img src="assets/images/Marie-in-the-garden.jpg" alt="Marie-Antoinette relaxing in a garden">
-        <img src="assets/images/Marie-resting.jpg" alt="Marie-Antoinette resting on a blanket in the garden">
-        <img src="assets/images/Marie-touching-her-neck.jpg" alt="Marie-Antoinette gently touching her neck">
-        <img src="assets/images/Marie-with-dogs.jpg" alt="Marie-Antoinette standing with two dogs on leashes">
-        <img src="assets/images/Marie-with-picnic.jpg" alt="Marie-Antoinette enjoying a picnic of French pastries">
-        <img src="assets/images/Marie-with-umbrella.jpg" alt="Marie-Antoinette holding a umbrella">
-        <img src="assets/images/Marie-turning-away.jpg" alt="Marie-Antoinette turning her face away from the sun">
-        <img src="assets/images/Marie-reading.jpg" alt="Marie-Antoinette reading in the garden">
-    </div>
-    <!-- social media links -->
+
+    <img src="assets/images/Marie-standing-with-two-dogs.jpg" alt="Marie-Antoinette standing between two dogs">
+    <section class="form-section">
+        <form method="POST" action="sign-up" class="signup-form">
+            <h2>Would you like to learn more about Marie Antoinette?</h2>
+            
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" class="text-input" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+            
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+            
+            <input class="join-button" type="submit" value="Let's Run!">
+        </form>
+    </section>
+    <footer>
     <footer>
         <ul class="social-networks">
             <li>
@@ -69,8 +80,6 @@
             </li>
         </ul>
     </footer>
-    <script src="https://kit.fontawesome.com/245eb5f25c.js" crossorigin="anonymous"></script>"
+    <script src="https://kit.fontawesome.com/245eb5f25c.js" crossorigin="anonymous"></script>
 </body>
-
-
 </html>
