@@ -455,20 +455,23 @@ footer {
 
 /* for mobile screen sizes of 370px wide and down */
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 380px) {
 
 
   #logo {
-    display: inline;
+    display: center;
     margin: 0 auto;
     padding-left: 12px;
     margin-bottom: 5px;
   }
 
-  #menu li {
-    float: left;
-    padding-bottom: 10px;
-  }
+
+
+  #menu li  {
+      float: left;
+      padding-bottom: 10px;
+ }
+
 
   #hero-outer {
     height: auto;
@@ -523,20 +526,13 @@ footer {
     border-radius: 50%;
   }
 
-  #timeline-container {
-    flex-direction: column;
-  }
-
-  #timeline  {
-  margin: 0 auto;
-  font-size: 77%;
-  max-width: 25%;
-  grid-template-columns: 1fr 3px 1fr;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #7e3bc2;
-  overflow: hidden;
-  }
+.timeline > h2 { 
+  visibility: hidden;
 }
+
+  .timeline {
+    visibility: hidden;
+  }
 
 @media screen and (max-width: 768px) {
 
