@@ -1,6 +1,20 @@
-Introduction 
+<h1>Portfolio Project 1 - HTML/CSS Essentials </h1>
+<br>
 
-This website was created for anyone interested in learning the truth about the life and death of historical figure Marie Antoinette
+'Marie Antoinette - The true story of her life a death' is a website that dispels the myths surrounding the historical figure, Marie Antoinette, by documenting the facts surrounding her life. This site was created for anyone eager to learn a lesser known side of Marie Antoinette's story. By showcasing the young Queen as a real person in both images and video, this site offers its audience the chance to see Marie-Antionette as a living, breathing person and by doing so, empathize with a young woman whose life was smeared by both past and present day misinformation. 
+
+<h2>Live Site</h2>
+<br>
+
+<h2>Repository</h2>
+<br>
+
+<h2>Key Project Goals</h2>
+<ul><p>To showcase the facts of Marie Antoinette's life and death</p>
+</ul>
+<ul><p>To demonstrate my skillset as a developer using HMTL & CSS languages</p>
+</ul>
+
 
 -Screenshot (a screenshot of the responsiveness of the website using the "am i responsive design.is")
 
