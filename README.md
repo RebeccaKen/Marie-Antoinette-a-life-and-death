@@ -29,18 +29,26 @@ that the fore colour and background colour contrast nicely. - use lighthouse in 
 
 <h2>Credits</h2>
 
-- Code Credits
+Code Credits
+
+<b>Homepage</b>
 
 Timeline - Timeline structure code was built with the coding tutorial 'How to Create a Vertical Timeline - HTML & CSS Tutorial' by dcode. 
 Link: https://www.youtube.com/watch?v=AIDiMA_C3sg
 
+  Biography
+
+Main biograpghy image was built using code from the Code Institute lesson 'Creating The Hero Image' in the 'Love Running Walktrough Project' on the 'Diploma in Full Stack Software Development (Common Curriculum)' couse. Link: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/
+
+The was made responsive using code from the video 'Embed a YouTube Video in HTML and Make it Responsive (CSS included)' by tipwithpunch on Youtube.
+Link: https://www.youtube.com/watch?v=9YffrCViTVk&t=100s
+
+  Gallery
+
 Hover animation - The code for the hover animation on the 'Gallery' page was built with the code example of '#1 Hover animation'
 by Vijay Thirugnanam on his website vijayt.com. Link: https://vijayt.com/post/hover-animation-blurred-image-and-other-css-tricks/
 
-
-
- (Credits for externally sourced code MUST be credits in both READ.ME file and in the actual html code with a comment: the 
-comment should make it clear that this code is not your original code and source the location of the code URL)
+  
 
 - Content Credits
 
