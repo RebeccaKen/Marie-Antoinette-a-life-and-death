@@ -19,6 +19,8 @@ body {
 
 /* headings and logos */
 
+
+
 h1,
 h2 {
   font-family: Playfair Display, sans-serif;
@@ -26,12 +28,38 @@ h2 {
   color: #33332e;
 }
 
+
 #logo {
   float: left;
-  margin-left: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
   font-size: 280%;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+/* navigation links */
+
+#menu {
+  font-size: 120%;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #7e3bc2;
+}
+
+#menu,
+#logo {
+  line-height: 75px;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+
+#menu a {
+  text-decoration: none;
 }
 
 /* navigation links */
@@ -41,24 +69,7 @@ h2 {
   font-weight: 500;
   letter-spacing: 3px;
   color: #7e3bc2;
-}
-
-#menu,
-#logo {
-  line-height: 70px;
-}
-
-#menu li {
-  float: right;
-  list-style-type: none;
-  margin-right: 30px;
-  margin-top: 30px;
-  text-align: center;
-}
-
-#menu a {
-  text-decoration: none;
-
+  padding-top: 20px;
 }
 
 #menu a:hover {
@@ -118,7 +129,7 @@ h2 {
 
 /* introduction paragraph */
 
-#introduction-paragragh > h2 {
+#introduction-paragragh>h2 {
   font-size: 280%;
   padding-top: 7%;
 
@@ -226,7 +237,7 @@ hr {
 Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 */
 
-#timeline > h2 {
+#timeline>h2 {
   text-align: center;
   font-size: 280%;
   margin-top: 8%;
@@ -293,6 +304,7 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 .timeline__paragraph {
   line-height: 1.5;
 }
+
 
 /* biograpghy page */
 
@@ -375,20 +387,21 @@ img:hover {
   background-size: cover;
   background-position: center;
   height: 1200px;
+  padding-left: 30px;
 }
 
 .signup-form {
-  margin: 150px 10% 0 0;
-  color:#fff;
+  margin: 270px 8% 0 0;
+  color: #fff;
   background-color: #df82df;
   opacity: .9;
   max-width: 400px;
   position: absolute;
   left: 10%;
-  padding:30px;
+  padding: 35px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
   color: #fafafa;
   margin-bottom: 20px;
 }
@@ -398,13 +411,13 @@ img:hover {
   font-weight: 500;
   font-size: 20px;
   background: transparent;
-  color:#fafafa;
+  color: #fafafa;
   width: 100%;
   height: 25px;
   margin: 5px 0 20px 0;
   border: 1px solid #fafafa;
   border-radius: 2px;
-  
+
 }
 
 
@@ -413,15 +426,15 @@ img:hover {
 }
 
 .join-button {
-  font-family: 'Source Sans Pro', sans-serif; 
+  font-family: 'Source Sans Pro', sans-serif;
   margin-top: 20px;
-  border-radius:2px;
+  border-radius: 2px;
   padding: 15px 32px 15px 32px;
   text-align: center;
   font-size: 100%;
   background-color: #7e3bc2;
   color: #fafafa;
-  display:block;
+  display: block;
 }
 
 .join-button:hover {
@@ -453,13 +466,11 @@ footer {
 
 /* media queries */
 
-/* for mobile screen sizes of 370px wide and down */
+/* for mobile screen sizes of 380px wide and down */
 
 @media screen and (max-width: 380px) {
-
-
   #logo {
-    display: center;
+    text-align: center;
     margin: 0 auto;
     padding-left: 12px;
     margin-bottom: 5px;
@@ -467,10 +478,10 @@ footer {
 
 
 
-  #menu li  {
-      float: left;
-      padding-bottom: 10px;
- }
+  #menu li {
+    float: left;
+    padding-bottom: 10px;
+  }
 
 
   #hero-outer {
@@ -498,14 +509,15 @@ footer {
     margin-right: 25px;
   }
 
-  #introduction-paragrapgh>h1 {
+  #introduction-paragrapgh > h1 {
     font-size: 190%;
     padding-right: 20%;
     text-align: center;
   }
 
   #welcome {
-    font-size: 190%;
+    font-size: 200%;
+    padding-bottom: 2%;
   }
 
   #circle-container {
@@ -526,13 +538,28 @@ footer {
     border-radius: 50%;
   }
 
-.timeline > h2 { 
-  visibility: hidden;
-}
-
-  .timeline {
-    visibility: hidden;
+  #timeline {
+    display: none;
   }
+
+  /* gallery */
+
+  #gallery {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* biography page */
+
+  #video>h2 {
+    text-align: center;
+    padding: 5px;
+  }
+ 
+   /* newsletter */
+  
+  
+
 
 @media screen and (max-width: 768px) {
 
