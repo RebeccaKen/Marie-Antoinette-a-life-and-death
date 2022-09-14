@@ -565,14 +565,14 @@ footer {
   #video {
     text-align: center;
     padding-bottom: 5%;
-    padding-right: 18%;
-    padding-left: 3%;
-   }
+    padding-right: 30%
+    }
+
    #video > h2 {
      text-align: center;
      padding-bottom: 5%;
-     padding-right: 6%;
-     padding-left: 3%;
+     padding-right: 5%;
+     padding-left: 10%;
     }
 
   .iframe-container{
