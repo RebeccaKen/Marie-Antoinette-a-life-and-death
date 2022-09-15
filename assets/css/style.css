@@ -130,6 +130,12 @@ h2 {
 
 /* introduction paragraph */
 
+.intro-paragraph-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 #introduction-paragragh>h2 {
   font-size: 280%;
   padding-top: 7%;
@@ -139,19 +145,23 @@ h2 {
 #introduction-paragragh {
   width: 80vw;
   padding-top: 3%;
-  padding-left: 10%;
   text-align: center;
-  overflow: hidden;
+  
 }
 
 /* historical lies */
 
 
+.historical-lies-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #historical-lies {
-  height: 600px;
-  width: auto;
-  margin-top: 60px;
-  padding-bottom: 40px;
+  width: 100%;
+  height: 1200px;
+  margin-top: 10%;
   padding-top: 20px;
 }
 
@@ -161,6 +171,7 @@ h2 {
   width: 33%;
   float: left;
 }
+
 
 #right-about {
   padding-top: 50px;
@@ -237,31 +248,25 @@ hr {
 /* timeline - timeline structure code was built with the coding tutorial 'How to Create a Vertical Timeline - HTML & CSS Tutorial' by dcode. 
 Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 */
-.timeline-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+
 
 
 #timeline > h2 {
   text-align: center;
   font-size: 280%;
-  margin-top: 8%;
+  margin-bottom: 3%;
 }
 
 .timeline {
   margin: 0 auto;
-  max-width: 40%;
-  padding: 20%;
-  padding-top: 4%;
-  padding-bottom: 2%;
+  max-width: 30%;
+  padding: 25px;
   display: grid;
   grid-template-columns: 1fr 3px 1fr;
   font-family: 'Source Sans Pro', sans-serif;
   color: #7e3bc2;
-  overflow: hidden;
 }
+ 
 
 .timeline__component {
   margin: 0 20px 20px 20px;
@@ -353,15 +358,18 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 
 /* video */
 
+#video > h2 {
+  padding-bottom: 3%;
+  text-align: center;
+ }
+
 .video-container {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
  }
 
- #video >h2 {
-  padding-bottom: 2%;
- }
 /* gallery */
 
 
@@ -399,7 +407,6 @@ img:hover {
   background-size: cover;
   background-position: center;
   height: 1200px;
-  margin-top: 6%;
 
 }
 
@@ -430,9 +437,7 @@ img:hover {
   margin: 5px 0 20px 0;
   border: 1px solid #fafafa;
   border-radius: 2px;
-
 }
-
 
 .text-input:hover {
   border-color: #fafafa;
@@ -458,6 +463,12 @@ img:hover {
 
 /* footer */
 
+.footer-contanier {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 footer {
   height: 150px;
 }
@@ -477,9 +488,10 @@ footer {
   color: #7e3bc2;
 }
 
+
 /* media queries */
 
-/* for mobile screen sizes of 380px wide and down */
+/* for mobile screen sizes of 320px wide and down */
 
 @media screen and (max-width: 320px) {
   #logo {
@@ -532,7 +544,7 @@ footer {
   }
 
   #circle-container {
-    width: 55vw;
+    width: 68vw;
     height: 35vh;
     padding: 20px;
     padding-left: 10px;
@@ -549,10 +561,21 @@ footer {
     border-radius: 50%;
   }
 
+
+   
+  .timeline-container {
+    display: none;
+  }
+  
+  #timeline > h2 {
+    display: none;
+  }
+
   #timeline {
     display: none;
   }
 
+  
 
   /* gallery */
 
@@ -576,9 +599,7 @@ footer {
   
 
   #video {
-    text-align: center;
-    padding-bottom: 5%;
-    padding-right: 30%
+    margin: 0 auto;
     }
 
    #video > h2 {
@@ -603,15 +624,11 @@ footer {
   }
  
    /* newsletter */
-
-   #menu {
-    padding-bottom: 5%;
-   }
   
    .form-section {
     position: relative;
     width: 100vw;
-    height: 150vh;
+    height: 160vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -658,10 +675,9 @@ footer {
     background-color: #7e3bc2;
     color: #fafafa;
     display: block;
+   }
+
   }
-}
-
-
 
 @media screen and (max-width: 768px) {
 
@@ -678,34 +694,18 @@ footer {
     bottom: 60px;
     right: 10px;
   }
-
-  #introduction-paragrapgh>h1 {
-    padding-right: 30px;
-  }
-
-  #introduction-paragrapgh {
-    width: auto;
-    margin-top: 30px;
-    padding-bottom: 20px;
-    padding-top: 0px;
-    padding-left: 100px;
-    text-align: center;
-  }
-
-  #welcome {
-    padding-left: 30px;
-    padding-bottom: 50px;
+  
+  .historical-lies-container {
+    display: inline;
   }
 
   #historical-misconceptions {
-    width: 65%;
-    height: 1200px;
+    width: 100%;
+    height: 600px;
     margin: 0 auto;
     margin-bottom: 20px;
     text-align: center;
   }
-
-
 
   .left-about-heading,
   .right-about-heading {
@@ -724,6 +724,12 @@ footer {
     padding: 0 20px;
   }
 
+ .timeline-container {
+  display: none;
+
+}
+
+
   
 
 /* biograpgy section */
@@ -740,13 +746,32 @@ footer {
   margin-right: 30px;
 }
 
-#video {
-  padding-left: 20%;
+
+
+#gallery {
+  width: 100%;
+  height: fit-content;
+  margin: 14px;
+  padding-inline: 30px;
+  float: left;
+  grid-template-columns: auto;
+  grid-row: auto;
+  border-bottom: 20px;
 }
 
-#footer {
-  display: inline;
+/* newsletter */
+
+.signup-form {
+  margin: 350px 8% 0 0;
+  color: #fff;
+  background-color: #df82df;
+  opacity: .9;
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 35px;
 }
+
 
 /* for larger to medium screen sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -789,4 +814,6 @@ footer {
     width: 65%;
     margin: 0 auto;
   }
+
+
 }
