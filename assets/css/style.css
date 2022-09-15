@@ -250,6 +250,12 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 */
 
 
+.timeline-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 #timeline > h2 {
   text-align: center;
@@ -729,9 +735,6 @@ footer {
 
 }
 
-
-  
-
 /* biograpgy section */
 
 #menu>li {
@@ -746,7 +749,7 @@ footer {
   margin-right: 30px;
 }
 
-
+/* gallery */
 
 #gallery {
   width: 100%;
@@ -773,47 +776,37 @@ footer {
 }
 
 
-/* for larger to medium screen sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* for larger to medium screen sizes from 1024px wide and down */
+@media screen and (max-width: 1024px) {
+
+ /* homepage */
 
   #introduction-paragrapgh {
     width: 80%;
     text-align: center;
   }
 
-  #historical-misconceptions {
-    width: 65%;
+  
+  #historical-lies {
     height: 1200px;
+    margin-top: 10%;
+    padding-top: 20px;
     margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%;
   }
+  
+  #gallery {
+      width: 100%;
+      height: fit-content;
+      margin: 2px;
+      padding-inline: 30px;
+      float: left;
+      grid-template-columns: auto;
+      grid-row: auto;
+      border-bottom: 20px;
+    }
 
-  #welcome {
-    padding: 30px 0;
-    margin: 0;
   }
-
-  #left-about,
-  #right-about {
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-
-  #center-about {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-
-  hr {
-    display: none;
-  }
-
-  #timeline {
-    width: 65%;
-    margin: 0 auto;
-  }
-
-
+}
 }
