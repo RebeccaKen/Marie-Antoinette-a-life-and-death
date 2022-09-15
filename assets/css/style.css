@@ -28,16 +28,26 @@ h2 {
   color: #33332e;
 }
 
+.logo-contanier {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
 
 #logo {
   float: left;
-  font-size: 280%;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  padding-left: 10px;
+  font-size: 260%;
+  padding-top: 2%;
+  padding-left: 1%;
 }
 
 /* navigation links */
+
+.menu-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
 
 #menu {
   font-size: 120%;
@@ -51,25 +61,14 @@ h2 {
   line-height: 75px;
 }
 
-#menu li {
-  float: right;
-  list-style-type: none;
-  margin-right: 30px;
-  padding-bottom: 10px;
+#menu > li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
 }
 
 #menu a {
   text-decoration: none;
-}
-
-/* navigation links */
-
-#menu {
-  font-size: 120%;
-  font-weight: 500;
-  letter-spacing: 3px;
-  color: #7e3bc2;
-  padding-top: 20px;
 }
 
 #menu a:hover {
@@ -88,6 +87,7 @@ h2 {
   overflow: hidden;
 
   position: relative;
+  display: flex;
 }
 
 #cover-text,
@@ -100,6 +100,7 @@ h2 {
   width: 100%;
   background: url('../images/Marie-portrait-1.jpg') no-repeat center center;
   background-size: cover;
+  display: flex;
 }
 
 /* cover-text */
@@ -236,6 +237,12 @@ hr {
 /* timeline - timeline structure code was built with the coding tutorial 'How to Create a Vertical Timeline - HTML & CSS Tutorial' by dcode. 
 Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 */
+.timeline-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 
 #timeline > h2 {
   text-align: center;
@@ -346,17 +353,17 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 
 /* video */
 
-.iframe-container {
-  padding-left: 18%;
-}
+.video-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+ }
 
-#video > h2 {
-  padding-bottom: 5%;
-  padding-right: 20%;
-  padding-left: 16%;
-}
-
+ #video >h2 {
+  padding-bottom: 2%;
+ }
 /* gallery */
+
 
 #gallery {
   width: 100%;
@@ -474,15 +481,13 @@ footer {
 
 /* for mobile screen sizes of 380px wide and down */
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
   #logo {
     text-align: center;
     margin: 0 auto;
     padding-left: 12px;
     margin-bottom: 5px;
   }
-
-
 
   #menu li {
     float: left;
@@ -548,7 +553,14 @@ footer {
     display: none;
   }
 
+
   /* gallery */
+
+  .gallery-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
 
   #gallery {
     padding: 0;
@@ -561,6 +573,7 @@ footer {
     display: inline;
     padding-bottom: 5%;
   }
+  
 
   #video {
     text-align: center;
@@ -659,16 +672,7 @@ footer {
     padding-right: 3%;
   }
 
-  #menu {
-     padding-right: 10%;
-     padding-left: 3%;
-  }
-
-  #menu > li {
-    float: left;
-    list-style-type:none;
-    margin-right: 30px;
-  }
+  
 
   #cover-text {
     bottom: 60px;
@@ -719,7 +723,8 @@ footer {
     text-align: center;
     padding: 0 20px;
   }
-}
+
+  
 
 /* biograpgy section */
 
