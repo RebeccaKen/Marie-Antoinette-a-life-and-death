@@ -325,7 +325,7 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 /* biograpghy */
 
 
-#bio-image-outer {
+.bio-image-outer {
   height: 700px;
   width: 100%;
   overflow: hidden;
