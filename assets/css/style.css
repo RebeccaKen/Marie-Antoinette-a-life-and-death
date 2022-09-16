@@ -61,10 +61,10 @@ h2 {
   line-height: 75px;
 }
 
-#menu > li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
+#menu>li {
+  float: right;
+  margin-right: 30px;
+  list-style-type: none;
 }
 
 #menu a {
@@ -145,9 +145,9 @@ h2 {
 #introduction-paragragh {
   width: 80vw;
   padding-top: 3%;
-  padding-bottom:3%;
+  padding-bottom: 3%;
   text-align: center;
-  
+
 }
 
 /* historical lies */
@@ -225,8 +225,6 @@ hr {
 }
 
 
-
-
 #circle-container {
   width: 30vh;
   height: 30vh;
@@ -254,10 +252,10 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 .timeline-container {
   display: flex;
   justify-content: center;
-  
+
 }
 
-#timeline > h2 {
+#timeline>h2 {
   text-align: center;
   font-size: 280%;
   margin-bottom: 3%;
@@ -272,7 +270,7 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
   font-family: 'Source Sans Pro', sans-serif;
   color: #7e3bc2;
 }
- 
+
 
 .timeline__component {
   margin: 0 20px 20px 20px;
@@ -324,7 +322,7 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 }
 
 
-/* biograpghy page */
+/* biograpghy */
 
 
 #bio-image-outer {
@@ -364,31 +362,37 @@ Link here: https://www.youtube.com/watch?v=AIDiMA_C3sg
 
 /* video */
 
-#video > h2 {
+#video>h2 {
   padding-bottom: 3%;
   text-align: center;
- }
+}
 
 .video-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
- }
+}
 
 /* gallery */
 
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 #gallery {
   width: 100%;
   height: fit-content;
-  margin: 100px;
-  padding-inline: 30px;
-  float: left;
+  padding-inline: 6%;
   grid-template-columns: auto;
   grid-row: auto;
   border-bottom: 20px;
 }
+
+
+
 
 /* The code for the hover animation on the 'Gallery' page was built with the code example of '#1 Hover animation'
     by Vijay Thirugnanam on his website vijayt.com. Link: https://vijayt.com/post/hover-animation-blurred-image-and-other-css-tricks/
@@ -405,7 +409,7 @@ img:hover {
   padding: 2px;
 }
 
-/* newsletter form */
+/* newsletter */
 
 .form-section {
   clear: left;
@@ -500,16 +504,14 @@ footer {
 /* for mobile screen sizes of 320px wide and down */
 
 @media screen and (max-width: 320px) {
-  
+
+  /* homepage */
+
   #logo {
-    text-align: center;
-    margin: 0 auto;
-    padding-left: 12px;
-    margin-bottom: 5px;
+    align-content: center;
   }
 
   #menu li {
-    float: left;
     padding-bottom: 10px;
   }
 
@@ -539,40 +541,40 @@ footer {
     margin-right: 25px;
   }
 
-  #introduction-paragrapgh > h1 {
+  #introduction-paragrapgh>h1 {
     font-size: 190%;
     padding-right: 20%;
     text-align: center;
   }
 
- 
+
 
   #welcome {
     display: none;
   }
 
   .historical-lies-container {
-    display:none;
+    display: none;
   }
-  
+
   #historical-lies {
-    align-items: center;
+    display: none;
   }
-  
+
   #circle-container {
     display: none;
   }
-  
+
   #circle-cover-bg {
     display: none;
   }
 
-  
+
   .timeline-container {
     display: none;
   }
-  
-  #timeline > h2 {
+
+  #timeline>h2 {
     display: none;
   }
 
@@ -580,57 +582,50 @@ footer {
     display: none;
   }
 
-  
+
 
   /* gallery */
 
-  .gallery-container {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
+ #gallery {
+  align-content: center;
+ }
+  /* biography */
 
-  #gallery {
-    padding: 0;
-    margin: 0;
-  }
-
-  /* biography page */
-
-  #bio > h2 {
+  #bio>h2 {
     display: inline;
     padding-bottom: 5%;
   }
-  
+
 
   #video {
     margin: 0 auto;
-    }
+  }
 
-   #video > h2 {
-     text-align: center;
-     padding-bottom: 5%;
-     padding-right: 5%;
-     padding-left: 10%;
-    }
+  #video>h2 {
+    text-align: center;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 10%;
+  }
 
-  .iframe-container{
+  .iframe-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
     height: 0;
   }
-  .iframe-container iframe{
+
+  .iframe-container iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
   }
- 
-   /* newsletter */
-  
-   .form-section {
+
+  /* newsletter */
+
+  .form-section {
     position: relative;
     width: 100vw;
     height: 160vh;
@@ -638,7 +633,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  
+
   .signup-form {
     font-size: medium;
     margin: 9px 8% 0 0;
@@ -650,12 +645,12 @@ footer {
     left: 15%;
     padding: 10px;
   }
-  
+
   .signup-form>h2 {
     color: #fafafa;
     margin-bottom: 10px;
   }
-  
+
   .text-input {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
@@ -667,7 +662,7 @@ footer {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-  
+
   }
 
   .join-button {
@@ -680,12 +675,14 @@ footer {
     background-color: #7e3bc2;
     color: #fafafa;
     display: block;
-   }
-
   }
+
+}
 
 @media screen and (max-width: 768px) {
 
+
+  /* homepage */
 
   #h1 {
     width: 30%;
@@ -693,115 +690,85 @@ footer {
     padding-right: 3%;
   }
 
-  
-
   #cover-text {
     bottom: 60px;
     right: 10px;
   }
-  
+
   .historical-lies-container {
-    display: inline;
+    display: none;
   }
 
   #historical-misconceptions {
+    display: none;
+  }
+
+  .timeline-container {
+    display: none;
+
+  }
+
+  /* biograpgy */
+
+  #menu>li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+
+  #bio-image {
+    padding-left: 2px;
+    margin-right: 30px;
+  }
+
+  /* gallery */
+
+  #gallery {
     width: 100%;
-    height: 600px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    text-align: center;
+    height: fit-content;
+    grid-template-columns: auto;
+    grid-row: auto;
+    border-bottom: 20px;
   }
 
-  .left-about-heading,
-  .right-about-heading {
-    width: inherit;
+  /* newsletter */
+
+  .signup-form {
+    margin: 350px 8% 0 0;
+    color: #fff;
+    background-color: #df82df;
+    opacity: .9;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 35px;
   }
-
-  .left-about-heading h2,
-  .right-about-heading h2 {
-    width: 100%;
-    text-align: center;
-  }
-
-  .left-about-heading p,
-  .right-about-heading p {
-    text-align: center;
-    padding: 0 20px;
-  }
-
- .timeline-container {
-  display: none;
-
-}
-
-/* biograpgy section */
-
-#menu>li {
-  float: right;
-  list-style-type: none;
-  margin-right: 30px;
-  margin-top: 30px;
-}
-
-#bio-image {
-  padding-left: 2px;
-  margin-right: 30px;
-}
-
-/* gallery */
-
-#gallery {
-  width: 100%;
-  height: fit-content;
-  margin: 14px;
-  padding-inline: 30px;
-  float: left;
-  grid-template-columns: auto;
-  grid-row: auto;
-  border-bottom: 20px;
-}
-
-/* newsletter */
-
-.signup-form {
-  margin: 350px 8% 0 0;
-  color: #fff;
-  background-color: #df82df;
-  opacity: .9;
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
-  padding: 35px;
-}
 }
 
 /* for larger to medium screen sizes from 1024px wide and down */
 @media screen and (max-width: 1024px) {
 
- /* homepage */
+  /* homepage */
 
   #introduction-paragrapgh {
     width: 80%;
     text-align: center;
   }
 
-  
-  #historical-lies {
-    height: 1200px;
-    margin-top: 10%;
-    padding-top: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-  
-  #gallery {
-      width: 100%;
-      height: fit-content;
-      margin: 2px;
-      padding-inline: 0px;
-      float: left;
-      grid-template-columns:minmax(2);
-      border-bottom: 20px;
-    }
 
+
+  #historical-lies {
+    display: none;
   }
+
+  /* gallery */
+
+  #gallery {
+    width: 100%;
+    height: fit-content;
+    margin: 2px;
+    padding-inline: 0px;
+    border-bottom: 20px;
+  }
+}
