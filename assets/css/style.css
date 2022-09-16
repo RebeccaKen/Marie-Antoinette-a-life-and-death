@@ -509,10 +509,12 @@ footer {
 
   #logo {
     align-content: center;
+    padding-left: 4%;
   }
 
   #menu li {
     padding-bottom: 10px;
+    padding-right: 3%;
   }
 
 
