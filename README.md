@@ -8,10 +8,14 @@
 
 
 <h2>Live Site</h2>
-<br>
+
+<a href="https://8000-rebeccaken-marieantoine-9ln95n25ibn.ws-eu64.gitpod.io/index.html">Marie Antoinette a life and death</a>
+
+
 
 <h2>Repository</h2>
-<br>
+
+<a href="https://github.com/RebeccaKen/Marie-Antoinette-a-life-and-death">https://github.com/RebeccaKen/Marie-Antoinette-a-life-and-death</a>
 
 <h2>Key Project Goals</h2>
 <p>This project has two goals:</p>
@@ -68,6 +72,12 @@
 
 <img src="assets/images/../images.README.md/features.README.md/form.jpg" alt="An-image-of-a-form-to-sign-up-for-a-newsletter">
 
+<h2>Colour Scheme</h2>
+<p>For this website I choose a soft pastel colour palette with a vibrant purple for the text body so it would contrast and make reading the text easier.</p>
+
+<img src="assets/images/../images.README.md/colour-palette.jpg" alt="An-image-of-the-colour-scheme">
+<br>
+
 <h2>Testing</h2>
 <br>
 
@@ -107,6 +117,10 @@ Newsletter
 
 <img src="assets/images/../images.README.md/lighthouse-report.jpg" alt="An-image-of-lighthouse-report">
 
+<h2>Deployment</h2>
+
+<img src="assets/images/../images.README.md/deployment-page.jpg" alt="An-image-of-lighthouse-report">
+
 <h2>Code Credits</h2>
 <br>
 <h3>Homepage</h3>
@@ -141,15 +155,12 @@ Link: https://www.pbs.org/marieantoinette/timeline/index.html
 
 <h3>Biography</h3>
 The information for the 'Biography' section was gathered from the following sources:
+<br>
+'MARIE ANTOINETTE – TRAGIC TEEN QUEEN' by Jasmin K. Williams published on November 6, 2006 in the New York Post. Link here: https://nypost.com/2006/11/06/marie-antoinette-tragic-teen-queen/ 
 
-    'MARIE ANTOINETTE – TRAGIC TEEN QUEEN' by Jasmin K. Williams published on November 6, 2006 in the New York Post. Link here:
-     https://nypost.com/2006/11/06/marie-antoinette-tragic-teen-queen/ 
+'What Happened to Marie Antoinette’s Children?' by Barbara Maranzani published on Oct 18, 2019 in Biograpghy.com. Link here: https://www.biography.com/news/marie-antoinette-children-louis-charles-marie-therese
 
-    'What Happened to Marie Antoinette’s Children?' by Barbara Maranzani published on Oct 18, 2019 in Biograpghy.com. Link here:
-     https://www.biography.com/news/marie-antoinette-children-louis-charles-marie-therese
-    
-    'Marie Antoinette' page on Wikipedia. Link here:
-     https://en.wikipedia.org/wiki/Marie_Antoinette
+'Marie Antoinette' page on Wikipedia. Link here: https://en.wikipedia.org/wiki/Marie_Antoinette
 
 <h3>Video</h3>
 
@@ -161,4 +172,7 @@ at Royalty Now Studios. Link to video here: https://www.youtube.com/watch?v=OXhE
 <h3>Gallery</h3>
 
 Images for Marie-Antoinette throughout the website were sourced from 'pexels.com'. Link here: https://www.pexels.com/search/Marie%20Antoinette/
+
+<h2>Acknowledgements</h2>
+<p>I would like to thank my mentor Harry for his guidance with github, gitpod and flexbox. I would also like to thank the members of my study group and my class of July, 2022 for the advice and great community.</p>
 
