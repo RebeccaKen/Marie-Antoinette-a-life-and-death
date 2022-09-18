@@ -1,7 +1,11 @@
 <h1>Portfolio Project 1 - HTML/CSS Essentials </h1>
 <br>
 
+
 'Marie Antoinette - The true story of her life a death' is a website that dispels the myths surrounding the historical figure, Marie Antoinette, by documenting the facts surrounding her life. This site was created for anyone eager to learn a lesser known side of Marie Antoinette's story. By showcasing the young Queen as a real person in both images and video, this site offers its audience the chance to see Marie-Antionette as a living, breathing person and by doing so, empathize with a young woman whose life was smeared by both past and present day misinformation. 
+
+<img src="assets/images.README.md/responsive-screenshot.jpg" alt="An-image-of-website-across-screen-sizes">
+
 
 <h2>Live Site</h2>
 <br>
