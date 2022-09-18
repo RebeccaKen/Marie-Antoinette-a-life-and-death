@@ -473,11 +473,6 @@ img:hover {
 
 /* footer */
 
-.footer-contanier {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
 
 footer {
   height: 150px;
