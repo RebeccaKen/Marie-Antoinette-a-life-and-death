@@ -68,39 +68,70 @@
 
 <img src="assets/images/../images.README.md/features.README.md/form.jpg" alt="An-image-of-a-form-to-sign-up-for-a-newsletter">
 
--Testing (testing section that should prove the site have been tested and functions as expected - also bug tested, 
-list the bugs and what you did to fix them. If there are still unsolved bugs, list them too - testing websites are in
-notebook)
+<h2>Testing</h2>
+<br>
 
-- Accessibility (This is extremely important - don't forget to include all the alt attributes on images and make sure 
-that the fore colour and background colour contrast nicely. - use lighthouse in inspect to check accessibility.)
+<h3>HTML</h3>
+<p>Each page of html code has been tested with The W3C Markup Validation Service.</p>
+Homepage
 
-<h2>Credits</h2>
+<img src="assets/images/../images.README.md/validated-content.README.md/Homepage.jpg" alt="An-image-of-homepage-validator-results">
 
-Code Credits
+Biography
 
-<b>Homepage</b>
+<img src="assets/images/../images.README.md/validated-content.README.md/Bio-validator.jpg" alt="An-image-of-biograpghy-validator-results">
+
+Gallery
+
+<img src="assets/images/../images.README.md/validated-content.README.md/Gallery-validator.jpg" alt="An-image-of-gallery-validator-results">
+
+Newsletter
+
+<img src="assets/images/../images.README.md/validated-content.README.md/Newsletter-validator.jpg" alt="An-image-of-Newsletter-validator-results">
+
+<h3>CSS</h3>
+<br>
+<p>The CSS code for this website was tested in The W3C CSS Validation Service - Jigsaw. </p>
+
+<img src="assets/images/../images.README.md/validated-content.README.md/CSS-validator.jpg" alt="An-image-of-CSS-validator-results">
+
+<h3>Bugs</h3>
+<br>
+<p>This bug was solved by removing the stray div from the code.</p>
+
+<img src="assets/images/../images.README.md/Bug-example.jpg" alt="An-image-of-bug-scan-results">
+
+<h2>Accessibility</h2>
+<br>
+<p>This website was tested for Accessibility with the Lighthouse tool of Google Chrome</p>
+
+<img src="assets/images/../images.README.md/lighthouse-report.jpg" alt="An-image-of-lighthouse-report">
+
+<h2>Code Credits</h2>
+<br>
+<h3>Homepage</h3>
 
 Timeline - Timeline structure code was built with the coding tutorial 'How to Create a Vertical Timeline - HTML & CSS Tutorial' by dcode. 
 Link: https://www.youtube.com/watch?v=AIDiMA_C3sg
 
-  Biography
+<h3>Biography</h3>
 
-Main biograpghy image was built using code from the Code Institute lesson 'Creating The Hero Image' in the 'Love Running Walktrough Project' on the 'Diploma in Full Stack Software Development (Common Curriculum)' couse. Link: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/
+Main biograpghy image was built using code from the Code Institute lesson 'Creating The Hero Image' in the 'Love Running Walktrough Project' on the 'Diploma in Full Stack Software Development (Common Curriculum)' course. Link: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/
 
-The was made responsive using code from the video 'Embed a YouTube Video in HTML and Make it Responsive (CSS included)' by tipwithpunch on Youtube.
-Link: https://www.youtube.com/watch?v=9YffrCViTVk&t=100s
 
-  Gallery
+<h3>Gallery</h3>
 
 Hover animation - The code for the hover animation on the 'Gallery' page was built with the code example of '#1 Hover animation'
 by Vijay Thirugnanam on his website vijayt.com. Link: https://vijayt.com/post/hover-animation-blurred-image-and-other-css-tricks/
 
-  
+<h3>Newsletter</h3>
 
-- Content Credits
+The form was built using code from the Code Institute lesson 'Signup Form: Challenge 2'in the 'Love Running Walktrough Project' on the 'Diploma in Full Stack Software Development (Common Curriculum)' course. 
+Link: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/
 
-Homepage 
+<h2>Content Credits</h2>
+
+<h3>Homepage </h3>
 
 The information in the 'Historical Lies' section of the home page was gathered from the article '10 Things You May Not Know About Marie Antoinette' by 
 Christopher Klein on 'history.com'. Link: https://www.history.com/news/10-things-you-may-not-know-about-marie-antoinette
@@ -108,8 +139,7 @@ Christopher Klein on 'history.com'. Link: https://www.history.com/news/10-things
 The information in the 'Timeline' section of the homepage was gathered from 'Marie Antoinette and the French Revolution' an article on 'pbs.org'. 
 Link: https://www.pbs.org/marieantoinette/timeline/index.html
 
-Biography
-
+<h3>Biography</h3>
 The information for the 'Biography' section was gathered from the following sources:
 
     'MARIE ANTOINETTE – TRAGIC TEEN QUEEN' by Jasmin K. Williams published on November 6, 2006 in the New York Post. Link here:
@@ -121,14 +151,14 @@ The information for the 'Biography' section was gathered from the following sour
     'Marie Antoinette' page on Wikipedia. Link here:
      https://en.wikipedia.org/wiki/Marie_Antoinette
 
-Video
+<h3>Video</h3>
 
 Permission to post the video 'Marie Antoinette: Her Life & Face Revealed' granted by the video content creator Becca Saladin Segovia
 at Royalty Now Studios. Link to video here: https://www.youtube.com/watch?v=OXhEBfK3Njc&t=956s
 
 <img src="assets/images/Permission-to-post-video.jpg" alt="Email confirming permisson from video creators to post video on the website">
 
-Gallery
+<h3>Gallery</h3>
 
 Images for Marie-Antoinette throughout the website were sourced from 'pexels.com'. Link here: https://www.pexels.com/search/Marie%20Antoinette/
 
