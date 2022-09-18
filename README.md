@@ -14,15 +14,59 @@
 <br>
 
 <h2>Key Project Goals</h2>
-<ul><p>To showcase the facts of Marie Antoinette's life and death</p>
-</ul>
-<ul><p>To demonstrate my skillset as a developer using HMTL & CSS languages</p>
-</ul>
+<p>This project has two goals:</p>
+<ol>
+<li>To showcase the facts of Marie Antoinette's life and death</li>
+<li>To demonstrate my skillset as a developer using HMTL & CSS languages</li>
+</ol>
+
+<h2>Features</h2>
+<h3>Website</h3>
+<p>'Navigation Bar' - This feature is a heading at the top of each page. It is fully responsive and contains links to all the website pages. </p>
+
+<img src="assets/images/../images.README.md/features.README.md/nav.jpg" alt="An-image-of-the-navigation-bar">
+
+<h3>Footer</h3>
+<p>'Footer' - This feature is a footer at the bottom of each page. It is fully responsive and contains links to Github, Linkedin, Instagram and Facebook.</p>
+
+<img src="assets/images/../images.README.md/features.README.md/footer.jpg" alt="An-image-of-the-footer">
+
+&nbsp; 
+&nbsp; 
+<h3>Homepage</h3>
+<p>'Historical lies' - This feature works to dispell the myths surronding the life of Marie Antoinette by listing key facts about the Queen. </p>
 
 
--Screenshot (a screenshot of the responsiveness of the website using the "am i responsive design.is")
+<img src="assets/images/../images.README.md/features.README.md/historical-lies.jpg" alt="An-image-of-historical-lies-section">
 
--feature (includes main features and a short paragraph on what they are about, and how they benefit the user)
+&nbsp; 
+&nbsp; 
+
+<p>'Timeline' - This feature lists key dated events of Marie Antoinette's life in a vertical timeline. </p>
+
+
+<img src="assets/images/../images.README.md/features.README.md/Timeline.jpg" alt="An-image-of-vertical-timeline">
+
+<h3>Biograpghy</h3>
+<p>'What did Marie Antoinette look like?' - This feature is a video that showcases a modern recreation of a portrait of Marie Antoinette rendered in photoshop. This video is narrated with a biograpghy of Marie Antoinette.</p>
+
+<img src="assets/images/../images.README.md/features.README.md/video.jpg" alt="An-image-of-a-video-of-Marie-Antoinette">
+
+&nbsp; 
+&nbsp; 
+
+<h3>Gallery</h3>
+<p>'Gallery' - This feature showcases images of Marie Antoinette with a hover effect when the cursor is over an image.</p>
+
+<img src="assets/images/../images.README.md/features.README.md/Gallery.jpg" alt="An-image-of-a-video-of-Marie-Antoinette">
+
+&nbsp; 
+&nbsp; 
+
+<h3>Newsletter</h3>
+<p>'Form' - This feature is a form that allows website users to sign-up for updates by receiving the Marie Antoinette newsletter.</p>
+
+<img src="assets/images/../images.README.md/features.README.md/form.jpg" alt="An-image-of-a-form-to-sign-up-for-a-newsletter">
 
 -Testing (testing section that should prove the site have been tested and functions as expected - also bug tested, 
 list the bugs and what you did to fix them. If there are still unsolved bugs, list them too - testing websites are in
