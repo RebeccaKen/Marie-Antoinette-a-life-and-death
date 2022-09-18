@@ -2,14 +2,16 @@
 <br>
 
 
-'Marie Antoinette - The true story of her life a death' is a website that dispels the myths surrounding the historical figure, Marie Antoinette, by documenting the facts surrounding her life. This site was created for anyone eager to learn a lesser known side of Marie Antoinette's story. By showcasing the young Queen as a real person in both images and video, this site offers its audience the chance to see Marie-Antionette as a living, breathing person and by doing so, empathize with a young woman whose life was smeared by both past and present day misinformation. 
+'Marie Antoinette - The true story of her life a death' is a website that dispels the myths surrounding the historical figure, Marie Antoinette, by documenting the facts surrounding her life. This site was created for anyone eager to learn a lesser known side of Marie Antoinette's story. 
+
+By showcasing the young Queen as a real person in both images and video, this site offers its audience the chance to see Marie-Antionette as a living, breathing person and by doing so, empathize with a young woman whose life was smeared by both past and present day misinformation. 
 
 <img src="assets/images.README.md/responsive-screenshot.jpg" alt="An-image-of-website-across-screen-sizes">
 
 
 <h2>Live Site</h2>
 
-<a href="https://8000-rebeccaken-marieantoine-9ln95n25ibn.ws-eu64.gitpod.io/index.html">Marie Antoinette a life and death</a>
+<a href="https://8000-rebeccaken-marieantoine-9ln95n25ibn.ws-eu64.gitpod.io/index.html">Marie Antoinette - The true story of her life and death</a>
 
 
 
@@ -73,7 +75,7 @@
 <img src="assets/images/../images.README.md/features.README.md/form.jpg" alt="An-image-of-a-form-to-sign-up-for-a-newsletter">
 
 <h2>Colour Scheme</h2>
-<p>For this website I choose a soft pastel colour palette with a vibrant purple for the text body so it would contrast and make reading the text easier.</p>
+<p>For this website I choose a soft pastel colour palette with a vibrant purple for the text body so they would contrast and make reading the text easier. The colour palette was inspired by the shades of soft pastels that were favoured by Marie Antoinette for her wardrobe. </p>
 
 <img src="assets/images/../images.README.md/colour-palette.jpg" alt="An-image-of-the-colour-scheme">
 <br>
@@ -113,11 +115,20 @@ Newsletter
 
 <h2>Accessibility</h2>
 <br>
-<p>This website was tested for Accessibility with the Lighthouse tool of Google Chrome</p>
+<p>This website was tested for Accessibility with the Lighthouse tool of Google Chrome.</p>
 
 <img src="assets/images/../images.README.md/lighthouse-report.jpg" alt="An-image-of-lighthouse-report">
 
 <h2>Deployment</h2>
+<p>The site was deployed to GitHub pages.</p>
+
+Steps to deploy to GitHub Pages:
+<ol>
+<li>Click on the settings tab in the GitHub repository</li>
+<li>Go to to pages tab on the upper left of the page</li>
+<li>Under source, select branch ‘master’ and then hit ‘save’</li>
+<li>Page will now refresh and show a detailed link to demonstrate the website's deployment</li>
+</ol>
 
 <img src="assets/images/../images.README.md/deployment-page.jpg" alt="An-image-of-lighthouse-report">
 
